@@ -1,0 +1,76 @@
+{
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": 1,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
+  "prettier.arrowParens": "always",
+  "prettier.printWidth": 80,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.lineHeight": 1,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 28,
+  "editor.formatOnType": true,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "workbench.startupEditor": "none",
+  "editor.autoClosingBrackets": "always",
+  "workbench.editor.enablePreview": false,
+  "editor.tokenColorCustomizations": {
+    "comments": "#ed1111"
+  },
+  "editor.autoClosingQuotes": "always",
+  "editor.minimap.enabled": false,
+  "php.validate.executablePath": "c:/xampp/php/php.exe",
+  // abertura e fechamento de chaves coloridas
+  // "editor.language.colorizedBracketPairs": [
+  //   ["[", "]"],
+  //   ["(", ")"],
+  //   ["{", "}"],
+  //   ["<", "</"],
+  //   ["<", "/>"]
+  // ],
+  // guias coloridas
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground1": "#fffffc96",
+    "editorIndentGuide.background1": "#fffffc96"
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.tabSize": 2,
+  "editor.guides.bracketPairs": "active",
+  "workbench.colorTheme": "One Dark Pro Darker"
+}
